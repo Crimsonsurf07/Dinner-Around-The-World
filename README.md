@@ -43,4 +43,4 @@ Create a simple web page that allows users to select different recipes to choose
 
 ## Screenshot
 
-![screenshot of application](./assets/images/screencapture-dinner-around-the-world.png)
+![Screen Shot 2022-02-10 at 11 53 19 PM](https://user-images.githubusercontent.com/73037339/155009628-794ce097-71a0-41cf-87fc-be4945faf34a.png)
