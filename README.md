@@ -3,9 +3,9 @@ Create a simple web page that allows users to select different recipes to choose
 
 ### Live Application Link & GitHub Repo 👓
 
-[Link to website](https://adambowers09.github.io/dinner-around-the-world/)
+[Link to website](https://crimsonsurf07.github.io/Dinner-Around-The-World/)
 
-[Link to Github Repo](https://github.com/adambowers09/dinner-around-the-world)
+[Link to Github Repo](https://github.com/Crimsonsurf07/Dinner-Around-The-World)
 
 ## Built With 🔨 🧰
 #### Technology
