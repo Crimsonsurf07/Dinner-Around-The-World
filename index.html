@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Project 1</title>
+</head>
+<body>  
+    <header>
+        <h1 class="title">Dinner Around The World!</h1>
+    </header>
+    <main class="menu-holder" container> 
+        <div class="cuisine">
+            <h3>Cuisine</h3>
+            
+                    <section class="options-container col s4">
+                
+                        <p>
+                          <label for="Italian" class="black-text">Italian
+                        <input value="Italian" class="with-gap" name="food" type="radio" id="Italian" />
+                        </label>
+                        </p>
+                        <br>
+                      <p>
+                        <label for="Brazilian" class="black-text">Brazilian
+                        <input value="Brazilian" class="with-gap" name="food" type="radio" id="Brazilian" />
+                        </label>
+                      </p>
+                      <br>
+                      <p>
+                        <label for="Indian" class="black-text">Indian
+                        <input value="Indian" class="with-gap" name="food" name="Indian" type="radio" id="Indian"  />
+                        </label>
+                      </p>
+                      <br>
+                      <p>
+                        <label for="Japanese" class="black-text">Japanese
+                        <input value="Japanese" class="with-gap" name="food" type="radio" id="Japanese"  />
+                        </label>
+                      </p>
+                      <br>
+                      <p>
+                        <label for="Mexican" class="black-text">Mexican
+                        <input value="Mexican" class="with-gap" name="food" type="radio" id="Mexican"  />
+                        </label>
+                    </p>
+                          <br>
+                          <input class="btn waves-effect waves-light" id= "saveRecipe" type="button" name="saveRecipe" value="Recipe" />
+                            
+                  </input>
+                        </section>
+              
+          </div>
+        <div class="beverage">
+            <h3>Drinks</h3>
+              <div class="row">
+                <section class="options-container col s4">
+          
+                  <p>
+                    <label for="Brandy" class="black-text">Brandy
+                    <input value="Brandy" class="with-gap" name="Random-Beverage" type="radio" id="Brandy" />
+                    </label>
+                  </p>
+                  <br>
+                  <p>
+                    <label for="Whiskey" class="black-text">Whiskey
+                      <input value ="Whiskey" class="with-gap" name="Random-Beverage" type="radio" id="Whiskey" />
+                      </label>
+                  </p>
+                  <br>
+                  <p>
+                    <label for="Tequila" class="black-text">Tequila
+                      <input value="Tequila" class="with-gap" name="Random-Beverage" name="Tequila" type="radio" id="Tequila"  />
+                    </label>
+                  </p>
+                  <br>
+                  <p>
+                    <label for="Gin" class="black-text">Gin
+                      <input value="Gin" class="with-gap" name="Random-Beverage" type="radio" id="Gin" />
+                    </label>
+                  </p>
+                  <br>
+                  <p>
+                    <label for="Rum" class="black-text">Rum
+                    <input class="with-gap" name="Random-Beverage" type="radio" id="Rum" />
+                    </label>
+                </p>
+                        <br>
+                        <input class="btn waves-effect waves-light" id="saveDrink" type="button" name="saveDrink" value="Beverage" />
+                          
+              
+                </section>
+              </div>
+        </div>
+
+    </main>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+  </div>
+  <div class="modal-footer">
+    <button class="modal-close waves-effect waves-green btn-flat">close</button>
+  </div>
+</div>
+    <!-- <figure class="hero">
+    </figure> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./assets/script.js"></script>
+</body>
+</html>
